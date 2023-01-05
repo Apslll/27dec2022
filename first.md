@@ -15,3 +15,17 @@ _git reflog_ - подробная история изменений
 ### git checkout - перемещение между точками сохранения
 
 #### git checkout master - возвращает в последний коммит по хронологии
+
+git branch - выводит список веток в репозитории
+
+git branch vetka - создаем новую ветку с именем vetka
+
+git branch -d vetka - удаляем ветку с именем vetka
+
+git checkout vetka - переходим на ветку vetka
+
+git log --graph - выводит список коммитов в виде дерева
+
+git merge vetka - сливает ветку vetka  с текущей веткой
+
+git checkout -b vetka - создаем ветку vetka и сразу в неё переходим
